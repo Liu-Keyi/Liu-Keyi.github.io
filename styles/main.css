@@ -377,3 +377,19 @@ footer {
         align-items: center;
     }
 }
+
+.award {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.award p {
+    margin-bottom: 0.8rem;
+    line-height: 1.1;
+    color: var(--text-color);
+}
+
+.award p:last-child {
+    margin-bottom: 0;
+}
