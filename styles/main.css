@@ -103,11 +103,18 @@ a:hover {
     color: white;
     font-size: 1.2rem;
     transition: all 0.3s;
+    text-decoration: none;
+}
+
+.social-links a i {
+    font-size: 1.2rem;
+    line-height: 1;
 }
 
 .social-links a:hover {
     background-color: var(--secondary-color);
     transform: translateY(-3px);
+    color: white;
 }
 
 /* 各部分通用样式 */
